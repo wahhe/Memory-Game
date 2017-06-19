@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C37F432D-AEE9-4DBF-B72A-FFCC616F4792}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Memory_Game</RootNamespace>
+    <AssemblyName>Memory Game</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cards.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameoverScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameoverScreen.Designer.cs">
+      <DependentUpon>GameoverScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="easyScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="easyScreen.Designer.cs">
+      <DependentUpon>easyScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hardScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hardScreen.Designer.cs">
+      <DependentUpon>hardScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="levelopitions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="levelopitions.Designer.cs">
+      <DependentUpon>levelopitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mediumScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mediumScreen.Designer.cs">
+      <DependentUpon>mediumScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuScreen.Designer.cs">
+      <DependentUpon>MenuScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameoverScreen.resx">
+      <DependentUpon>GameoverScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="easyScreen.resx">
+      <DependentUpon>easyScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hardScreen.resx">
+      <DependentUpon>hardScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="levelopitions.resx">
+      <DependentUpon>levelopitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mediumScreen.resx">
+      <DependentUpon>mediumScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuScreen.resx">
+      <DependentUpon>MenuScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b57fcd9996e24bc43c4ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\congrats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crying.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emoji-Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\high five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laughcry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laugh-Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\santa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sunglasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thump-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unamused-Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wink-Face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qmark.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\easy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medium.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
