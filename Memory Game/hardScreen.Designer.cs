@@ -28,271 +28,293 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(hardScreen));
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.h4l5 = new System.Windows.Forms.PictureBox();
+            this.h4l4 = new System.Windows.Forms.PictureBox();
+            this.h4l3 = new System.Windows.Forms.PictureBox();
+            this.h4l2 = new System.Windows.Forms.PictureBox();
+            this.h4l1 = new System.Windows.Forms.PictureBox();
+            this.h3l5 = new System.Windows.Forms.PictureBox();
+            this.h3l4 = new System.Windows.Forms.PictureBox();
+            this.h3l3 = new System.Windows.Forms.PictureBox();
+            this.h3l2 = new System.Windows.Forms.PictureBox();
+            this.h3l1 = new System.Windows.Forms.PictureBox();
+            this.h2l5 = new System.Windows.Forms.PictureBox();
+            this.h2l4 = new System.Windows.Forms.PictureBox();
+            this.h2l3 = new System.Windows.Forms.PictureBox();
+            this.h2l2 = new System.Windows.Forms.PictureBox();
+            this.h2l1 = new System.Windows.Forms.PictureBox();
+            this.h1l5 = new System.Windows.Forms.PictureBox();
+            this.h1l4 = new System.Windows.Forms.PictureBox();
+            this.h1l3 = new System.Windows.Forms.PictureBox();
+            this.h1l2 = new System.Windows.Forms.PictureBox();
+            this.h1l1 = new System.Windows.Forms.PictureBox();
             this.timeLabel = new System.Windows.Forms.Label();
             this.levelLabel = new System.Windows.Forms.Label();
             this.cleft = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.timerH = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.h4l5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox16
+            // h4l5
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.White;
-            this.pictureBox16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox16.BackgroundImage")));
-            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox16.Location = new System.Drawing.Point(631, 429);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox16.TabIndex = 59;
-            this.pictureBox16.TabStop = false;
+            this.h4l5.BackColor = System.Drawing.Color.Transparent;
+            this.h4l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h4l5.BackgroundImage")));
+            this.h4l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h4l5.Location = new System.Drawing.Point(631, 429);
+            this.h4l5.Name = "h4l5";
+            this.h4l5.Size = new System.Drawing.Size(146, 99);
+            this.h4l5.TabIndex = 59;
+            this.h4l5.TabStop = false;
+            this.h4l5.Click += new System.EventHandler(this.h4l5_Click);
             // 
-            // pictureBox17
+            // h4l4
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.White;
-            this.pictureBox17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox17.BackgroundImage")));
-            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox17.Location = new System.Drawing.Point(479, 429);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox17.TabIndex = 58;
-            this.pictureBox17.TabStop = false;
+            this.h4l4.BackColor = System.Drawing.Color.Transparent;
+            this.h4l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h4l4.BackgroundImage")));
+            this.h4l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h4l4.Location = new System.Drawing.Point(479, 429);
+            this.h4l4.Name = "h4l4";
+            this.h4l4.Size = new System.Drawing.Size(146, 99);
+            this.h4l4.TabIndex = 58;
+            this.h4l4.TabStop = false;
+            this.h4l4.Click += new System.EventHandler(this.h4l4_Click);
             // 
-            // pictureBox18
+            // h4l3
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.White;
-            this.pictureBox18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox18.BackgroundImage")));
-            this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox18.Location = new System.Drawing.Point(327, 429);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox18.TabIndex = 57;
-            this.pictureBox18.TabStop = false;
+            this.h4l3.BackColor = System.Drawing.Color.Transparent;
+            this.h4l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h4l3.BackgroundImage")));
+            this.h4l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h4l3.Location = new System.Drawing.Point(327, 429);
+            this.h4l3.Name = "h4l3";
+            this.h4l3.Size = new System.Drawing.Size(146, 99);
+            this.h4l3.TabIndex = 57;
+            this.h4l3.TabStop = false;
+            this.h4l3.Click += new System.EventHandler(this.h4l3_Click);
             // 
-            // pictureBox19
+            // h4l2
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.White;
-            this.pictureBox19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox19.BackgroundImage")));
-            this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox19.Location = new System.Drawing.Point(175, 429);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox19.TabIndex = 56;
-            this.pictureBox19.TabStop = false;
+            this.h4l2.BackColor = System.Drawing.Color.Transparent;
+            this.h4l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h4l2.BackgroundImage")));
+            this.h4l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h4l2.Location = new System.Drawing.Point(175, 429);
+            this.h4l2.Name = "h4l2";
+            this.h4l2.Size = new System.Drawing.Size(146, 99);
+            this.h4l2.TabIndex = 56;
+            this.h4l2.TabStop = false;
+            this.h4l2.Click += new System.EventHandler(this.h4l2_Click);
             // 
-            // pictureBox20
+            // h4l1
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.White;
-            this.pictureBox20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox20.BackgroundImage")));
-            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox20.Location = new System.Drawing.Point(23, 429);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox20.TabIndex = 55;
-            this.pictureBox20.TabStop = false;
+            this.h4l1.BackColor = System.Drawing.Color.Transparent;
+            this.h4l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h4l1.BackgroundImage")));
+            this.h4l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h4l1.Location = new System.Drawing.Point(23, 429);
+            this.h4l1.Name = "h4l1";
+            this.h4l1.Size = new System.Drawing.Size(146, 99);
+            this.h4l1.TabIndex = 55;
+            this.h4l1.TabStop = false;
+            this.h4l1.Click += new System.EventHandler(this.h4l1_Click);
             // 
-            // pictureBox11
+            // h3l5
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.White;
-            this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(631, 324);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox11.TabIndex = 54;
-            this.pictureBox11.TabStop = false;
+            this.h3l5.BackColor = System.Drawing.Color.Transparent;
+            this.h3l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l5.BackgroundImage")));
+            this.h3l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h3l5.Location = new System.Drawing.Point(631, 324);
+            this.h3l5.Name = "h3l5";
+            this.h3l5.Size = new System.Drawing.Size(146, 99);
+            this.h3l5.TabIndex = 54;
+            this.h3l5.TabStop = false;
+            this.h3l5.Click += new System.EventHandler(this.h3l5_Click);
             // 
-            // pictureBox12
+            // h3l4
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
-            this.pictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox12.BackgroundImage")));
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(479, 324);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox12.TabIndex = 53;
-            this.pictureBox12.TabStop = false;
+            this.h3l4.BackColor = System.Drawing.Color.Transparent;
+            this.h3l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l4.BackgroundImage")));
+            this.h3l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h3l4.Location = new System.Drawing.Point(479, 324);
+            this.h3l4.Name = "h3l4";
+            this.h3l4.Size = new System.Drawing.Size(146, 99);
+            this.h3l4.TabIndex = 53;
+            this.h3l4.TabStop = false;
+            this.h3l4.Click += new System.EventHandler(this.h3l4_Click);
             // 
-            // pictureBox13
+            // h3l3
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.White;
-            this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
-            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Location = new System.Drawing.Point(327, 324);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox13.TabIndex = 52;
-            this.pictureBox13.TabStop = false;
+            this.h3l3.BackColor = System.Drawing.Color.Transparent;
+            this.h3l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l3.BackgroundImage")));
+            this.h3l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h3l3.Location = new System.Drawing.Point(327, 324);
+            this.h3l3.Name = "h3l3";
+            this.h3l3.Size = new System.Drawing.Size(146, 99);
+            this.h3l3.TabIndex = 52;
+            this.h3l3.TabStop = false;
+            this.h3l3.Click += new System.EventHandler(this.h3l3_Click);
             // 
-            // pictureBox14
+            // h3l2
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.White;
-            this.pictureBox14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox14.BackgroundImage")));
-            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox14.Location = new System.Drawing.Point(175, 324);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox14.TabIndex = 51;
-            this.pictureBox14.TabStop = false;
+            this.h3l2.BackColor = System.Drawing.Color.Transparent;
+            this.h3l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l2.BackgroundImage")));
+            this.h3l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h3l2.Location = new System.Drawing.Point(175, 324);
+            this.h3l2.Name = "h3l2";
+            this.h3l2.Size = new System.Drawing.Size(146, 99);
+            this.h3l2.TabIndex = 51;
+            this.h3l2.TabStop = false;
+            this.h3l2.Click += new System.EventHandler(this.h3l2_Click);
             // 
-            // pictureBox15
+            // h3l1
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.White;
-            this.pictureBox15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox15.BackgroundImage")));
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox15.Location = new System.Drawing.Point(23, 324);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox15.TabIndex = 50;
-            this.pictureBox15.TabStop = false;
+            this.h3l1.BackColor = System.Drawing.Color.Transparent;
+            this.h3l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l1.BackgroundImage")));
+            this.h3l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h3l1.Location = new System.Drawing.Point(23, 324);
+            this.h3l1.Name = "h3l1";
+            this.h3l1.Size = new System.Drawing.Size(146, 99);
+            this.h3l1.TabIndex = 50;
+            this.h3l1.TabStop = false;
+            this.h3l1.Click += new System.EventHandler(this.h3l1_Click);
             // 
-            // pictureBox6
+            // h2l5
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.White;
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(631, 219);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox6.TabIndex = 49;
-            this.pictureBox6.TabStop = false;
+            this.h2l5.BackColor = System.Drawing.Color.Transparent;
+            this.h2l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l5.BackgroundImage")));
+            this.h2l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h2l5.Location = new System.Drawing.Point(631, 219);
+            this.h2l5.Name = "h2l5";
+            this.h2l5.Size = new System.Drawing.Size(146, 99);
+            this.h2l5.TabIndex = 49;
+            this.h2l5.TabStop = false;
+            this.h2l5.Click += new System.EventHandler(this.h2l5_Click);
             // 
-            // pictureBox7
+            // h2l4
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.White;
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(479, 219);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox7.TabIndex = 48;
-            this.pictureBox7.TabStop = false;
+            this.h2l4.BackColor = System.Drawing.Color.Transparent;
+            this.h2l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l4.BackgroundImage")));
+            this.h2l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h2l4.Location = new System.Drawing.Point(479, 219);
+            this.h2l4.Name = "h2l4";
+            this.h2l4.Size = new System.Drawing.Size(146, 99);
+            this.h2l4.TabIndex = 48;
+            this.h2l4.TabStop = false;
+            this.h2l4.Click += new System.EventHandler(this.h2l4_Click);
             // 
-            // pictureBox8
+            // h2l3
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.White;
-            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(327, 219);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox8.TabIndex = 47;
-            this.pictureBox8.TabStop = false;
+            this.h2l3.BackColor = System.Drawing.Color.Transparent;
+            this.h2l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l3.BackgroundImage")));
+            this.h2l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h2l3.Location = new System.Drawing.Point(327, 219);
+            this.h2l3.Name = "h2l3";
+            this.h2l3.Size = new System.Drawing.Size(146, 99);
+            this.h2l3.TabIndex = 47;
+            this.h2l3.TabStop = false;
+            this.h2l3.Click += new System.EventHandler(this.h2l3_Click);
             // 
-            // pictureBox9
+            // h2l2
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.White;
-            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(175, 219);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox9.TabIndex = 46;
-            this.pictureBox9.TabStop = false;
+            this.h2l2.BackColor = System.Drawing.Color.Transparent;
+            this.h2l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l2.BackgroundImage")));
+            this.h2l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h2l2.Location = new System.Drawing.Point(175, 219);
+            this.h2l2.Name = "h2l2";
+            this.h2l2.Size = new System.Drawing.Size(146, 99);
+            this.h2l2.TabIndex = 46;
+            this.h2l2.TabStop = false;
+            this.h2l2.Click += new System.EventHandler(this.h2l2_Click);
             // 
-            // pictureBox10
+            // h2l1
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.White;
-            this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(23, 219);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox10.TabIndex = 45;
-            this.pictureBox10.TabStop = false;
+            this.h2l1.BackColor = System.Drawing.Color.Transparent;
+            this.h2l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l1.BackgroundImage")));
+            this.h2l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h2l1.Location = new System.Drawing.Point(23, 219);
+            this.h2l1.Name = "h2l1";
+            this.h2l1.Size = new System.Drawing.Size(146, 99);
+            this.h2l1.TabIndex = 45;
+            this.h2l1.TabStop = false;
+            this.h2l1.Click += new System.EventHandler(this.h2l1_Click);
             // 
-            // pictureBox5
+            // h1l5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(631, 114);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox5.TabIndex = 44;
-            this.pictureBox5.TabStop = false;
+            this.h1l5.BackColor = System.Drawing.Color.Transparent;
+            this.h1l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l5.BackgroundImage")));
+            this.h1l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h1l5.Location = new System.Drawing.Point(631, 114);
+            this.h1l5.Name = "h1l5";
+            this.h1l5.Size = new System.Drawing.Size(146, 99);
+            this.h1l5.TabIndex = 44;
+            this.h1l5.TabStop = false;
+            this.h1l5.Click += new System.EventHandler(this.h1l5_Click);
             // 
-            // pictureBox3
+            // h1l4
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(479, 114);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox3.TabIndex = 43;
-            this.pictureBox3.TabStop = false;
+            this.h1l4.BackColor = System.Drawing.Color.Transparent;
+            this.h1l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l4.BackgroundImage")));
+            this.h1l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h1l4.Location = new System.Drawing.Point(479, 114);
+            this.h1l4.Name = "h1l4";
+            this.h1l4.Size = new System.Drawing.Size(146, 99);
+            this.h1l4.TabIndex = 43;
+            this.h1l4.TabStop = false;
+            this.h1l4.Click += new System.EventHandler(this.h1l4_Click);
             // 
-            // pictureBox4
+            // h1l3
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(327, 114);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox4.TabIndex = 42;
-            this.pictureBox4.TabStop = false;
+            this.h1l3.BackColor = System.Drawing.Color.Transparent;
+            this.h1l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l3.BackgroundImage")));
+            this.h1l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h1l3.Location = new System.Drawing.Point(327, 114);
+            this.h1l3.Name = "h1l3";
+            this.h1l3.Size = new System.Drawing.Size(146, 99);
+            this.h1l3.TabIndex = 42;
+            this.h1l3.TabStop = false;
+            this.h1l3.Click += new System.EventHandler(this.h1l3_Click);
             // 
-            // pictureBox2
+            // h1l2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(175, 114);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox2.TabIndex = 41;
-            this.pictureBox2.TabStop = false;
+            this.h1l2.BackColor = System.Drawing.Color.Transparent;
+            this.h1l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l2.BackgroundImage")));
+            this.h1l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h1l2.Location = new System.Drawing.Point(175, 114);
+            this.h1l2.Name = "h1l2";
+            this.h1l2.Size = new System.Drawing.Size(146, 99);
+            this.h1l2.TabIndex = 41;
+            this.h1l2.TabStop = false;
+            this.h1l2.Click += new System.EventHandler(this.h1l2_Click);
             // 
-            // pictureBox1
+            // h1l1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 114);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 99);
-            this.pictureBox1.TabIndex = 40;
-            this.pictureBox1.TabStop = false;
+            this.h1l1.BackColor = System.Drawing.Color.Transparent;
+            this.h1l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l1.BackgroundImage")));
+            this.h1l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.h1l1.Location = new System.Drawing.Point(23, 114);
+            this.h1l1.Name = "h1l1";
+            this.h1l1.Size = new System.Drawing.Size(146, 99);
+            this.h1l1.TabIndex = 40;
+            this.h1l1.TabStop = false;
+            this.h1l1.Click += new System.EventHandler(this.h1l1_Click);
             // 
             // timeLabel
             // 
@@ -328,6 +350,11 @@
             this.cleft.TabIndex = 62;
             this.cleft.Text = "0 cards left";
             // 
+            // timerH
+            // 
+            this.timerH.Enabled = true;
+            this.timerH.Tick += new System.EventHandler(this.timerH_Tick);
+            // 
             // hardScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -336,48 +363,48 @@
             this.Controls.Add(this.cleft);
             this.Controls.Add(this.levelLabel);
             this.Controls.Add(this.timeLabel);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.h4l5);
+            this.Controls.Add(this.h4l4);
+            this.Controls.Add(this.h4l3);
+            this.Controls.Add(this.h4l2);
+            this.Controls.Add(this.h4l1);
+            this.Controls.Add(this.h3l5);
+            this.Controls.Add(this.h3l4);
+            this.Controls.Add(this.h3l3);
+            this.Controls.Add(this.h3l2);
+            this.Controls.Add(this.h3l1);
+            this.Controls.Add(this.h2l5);
+            this.Controls.Add(this.h2l4);
+            this.Controls.Add(this.h2l3);
+            this.Controls.Add(this.h2l2);
+            this.Controls.Add(this.h2l1);
+            this.Controls.Add(this.h1l5);
+            this.Controls.Add(this.h1l4);
+            this.Controls.Add(this.h1l3);
+            this.Controls.Add(this.h1l2);
+            this.Controls.Add(this.h1l1);
             this.Name = "hardScreen";
             this.Size = new System.Drawing.Size(800, 545);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h4l1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h3l1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h2l1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h1l1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -385,28 +412,29 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox h4l5;
+        private System.Windows.Forms.PictureBox h4l4;
+        private System.Windows.Forms.PictureBox h4l3;
+        private System.Windows.Forms.PictureBox h4l2;
+        private System.Windows.Forms.PictureBox h4l1;
+        private System.Windows.Forms.PictureBox h3l5;
+        private System.Windows.Forms.PictureBox h3l4;
+        private System.Windows.Forms.PictureBox h3l3;
+        private System.Windows.Forms.PictureBox h3l2;
+        private System.Windows.Forms.PictureBox h3l1;
+        private System.Windows.Forms.PictureBox h2l5;
+        private System.Windows.Forms.PictureBox h2l4;
+        private System.Windows.Forms.PictureBox h2l3;
+        private System.Windows.Forms.PictureBox h2l2;
+        private System.Windows.Forms.PictureBox h2l1;
+        private System.Windows.Forms.PictureBox h1l5;
+        private System.Windows.Forms.PictureBox h1l4;
+        private System.Windows.Forms.PictureBox h1l3;
+        private System.Windows.Forms.PictureBox h1l2;
+        private System.Windows.Forms.PictureBox h1l1;
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Label levelLabel;
         private System.Windows.Forms.Label cleft;
+        private System.Windows.Forms.Timer timerH;
     }
 }

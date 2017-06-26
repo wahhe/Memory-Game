@@ -7,16 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 //create by Wah He
 namespace Memory_Game
 {
-    public partial class MemoryGame : Form
+    public partial class f1 : Form
     {
-        
+        public static int cardsLeft, card1index, card2index, cardTurned;
+        //add soundplayer
+        public static System.Windows.Media.MediaPlayer backPlayer;
+        public static System.Windows.Media.MediaPlayer bPlayer;
+        public static System.Windows.Media.MediaPlayer flipPlayer;
+        public static System.Windows.Media.MediaPlayer noMPlayer;
 
-        public MemoryGame()
+        public static string time = "";
+                   
+        public static Stopwatch playtime;
+     
+        public f1()
         {
             InitializeComponent();
+            playtime = new Stopwatch();
+           
+           
         }
 
         private void MemoryGame_Load(object sender, EventArgs e)

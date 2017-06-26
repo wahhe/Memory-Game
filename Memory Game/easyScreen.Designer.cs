@@ -202,6 +202,7 @@
             this.h1l1.Size = new System.Drawing.Size(146, 99);
             this.h1l1.TabIndex = 41;
             this.h1l1.TabStop = false;
+            //this.h1l1.EnabledChanged += new System.EventHandler(this.h1l1_EnabledChanged);
             this.h1l1.Click += new System.EventHandler(this.h1l1_Click);
             // 
             // timeLabel
@@ -225,6 +226,11 @@
             this.levelLabel.Size = new System.Drawing.Size(97, 21);
             this.levelLabel.TabIndex = 60;
             this.levelLabel.Text = "Level: EASY";
+            // 
+            // timerE
+            // 
+            this.timerE.Enabled = true;
+            this.timerE.Tick += new System.EventHandler(this.timerE_Tick);
             // 
             // cleft
             // 

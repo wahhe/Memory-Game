@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h4l5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -790,7 +790,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox17.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h4l4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -1462,7 +1462,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h4l3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -2134,7 +2134,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox19.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h4l2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -2806,7 +2806,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox20.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h4l1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -3478,7 +3478,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h3l5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -4150,7 +4150,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h3l4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -4822,7 +4822,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h3l3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -5494,7 +5494,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h3l2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -6166,7 +6166,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h3l1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -6838,7 +6838,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h2l5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -7510,7 +7510,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h2l4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -8182,7 +8182,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h2l3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -8854,7 +8854,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h2l2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -9526,7 +9526,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h2l1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -10198,7 +10198,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h1l5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -10870,7 +10870,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h1l4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -11542,7 +11542,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h1l3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -12214,7 +12214,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h1l2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -12886,7 +12886,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="h1l1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk12nAAAAAAAADYAAAAoAAAAZAAAAGQAAAABACAAAAAAAAAAAAAwLgAAMC4AAAAAAAAAAAAAD4Gg/w+B
         oP8PgaD/D4Gg/xZ+m/8Wfpv/Fn6b/xZ+m/8ZiID/GYiA/xmIgP8ZiID/a4UI/2uFCP9rhQj/a4UI/2N3
@@ -13558,4 +13558,7 @@
         Jv9icgj/YnII/2JyCP9icgj/X4ET/1+BE/9fgRP/X4ET/w==
 </value>
   </data>
+  <metadata name="timerH.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

@@ -47,6 +47,7 @@
             this.exitB.Size = new System.Drawing.Size(386, 127);
             this.exitB.TabIndex = 1;
             this.exitB.UseVisualStyleBackColor = false;
+            this.exitB.Click += new System.EventHandler(this.exitB_Click);
             // 
             // startB
             // 

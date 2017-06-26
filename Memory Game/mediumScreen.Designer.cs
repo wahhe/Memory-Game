@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mediumScreen));
             this.h3l5 = new System.Windows.Forms.PictureBox();
             this.h3l4 = new System.Windows.Forms.PictureBox();
@@ -46,6 +47,7 @@
             this.timeLabel = new System.Windows.Forms.Label();
             this.levelLabel = new System.Windows.Forms.Label();
             this.cleft = new System.Windows.Forms.Label();
+            this.timerM = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.h3l5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.h3l4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.h3l3)).BeginInit();
@@ -64,7 +66,7 @@
             // 
             // h3l5
             // 
-            this.h3l5.BackColor = System.Drawing.Color.White;
+            this.h3l5.BackColor = System.Drawing.Color.Transparent;
             this.h3l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l5.BackgroundImage")));
             this.h3l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h3l5.Location = new System.Drawing.Point(632, 407);
@@ -72,10 +74,11 @@
             this.h3l5.Size = new System.Drawing.Size(146, 99);
             this.h3l5.TabIndex = 49;
             this.h3l5.TabStop = false;
+            this.h3l5.Click += new System.EventHandler(this.h3l5_Click);
             // 
             // h3l4
             // 
-            this.h3l4.BackColor = System.Drawing.Color.White;
+            this.h3l4.BackColor = System.Drawing.Color.Transparent;
             this.h3l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l4.BackgroundImage")));
             this.h3l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h3l4.Location = new System.Drawing.Point(480, 407);
@@ -83,10 +86,11 @@
             this.h3l4.Size = new System.Drawing.Size(146, 99);
             this.h3l4.TabIndex = 48;
             this.h3l4.TabStop = false;
+            this.h3l4.Click += new System.EventHandler(this.h3l4_Click);
             // 
             // h3l3
             // 
-            this.h3l3.BackColor = System.Drawing.Color.White;
+            this.h3l3.BackColor = System.Drawing.Color.Transparent;
             this.h3l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l3.BackgroundImage")));
             this.h3l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h3l3.Location = new System.Drawing.Point(328, 407);
@@ -94,10 +98,11 @@
             this.h3l3.Size = new System.Drawing.Size(146, 99);
             this.h3l3.TabIndex = 47;
             this.h3l3.TabStop = false;
+            this.h3l3.Click += new System.EventHandler(this.h3l3_Click);
             // 
             // h3l2
             // 
-            this.h3l2.BackColor = System.Drawing.Color.White;
+            this.h3l2.BackColor = System.Drawing.Color.Transparent;
             this.h3l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l2.BackgroundImage")));
             this.h3l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h3l2.Location = new System.Drawing.Point(177, 407);
@@ -105,11 +110,11 @@
             this.h3l2.Size = new System.Drawing.Size(146, 99);
             this.h3l2.TabIndex = 46;
             this.h3l2.TabStop = false;
-            this.h3l2.Click += new System.EventHandler(this.pictureBox14_Click);
+            this.h3l2.Click += new System.EventHandler(this.h3l2_Click);
             // 
             // h3l1
             // 
-            this.h3l1.BackColor = System.Drawing.Color.White;
+            this.h3l1.BackColor = System.Drawing.Color.Transparent;
             this.h3l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h3l1.BackgroundImage")));
             this.h3l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h3l1.Location = new System.Drawing.Point(26, 407);
@@ -117,10 +122,11 @@
             this.h3l1.Size = new System.Drawing.Size(146, 99);
             this.h3l1.TabIndex = 45;
             this.h3l1.TabStop = false;
+            this.h3l1.Click += new System.EventHandler(this.h3l1_Click);
             // 
             // h2l4
             // 
-            this.h2l4.BackColor = System.Drawing.Color.White;
+            this.h2l4.BackColor = System.Drawing.Color.Transparent;
             this.h2l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l4.BackgroundImage")));
             this.h2l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h2l4.Location = new System.Drawing.Point(632, 281);
@@ -128,10 +134,11 @@
             this.h2l4.Size = new System.Drawing.Size(146, 99);
             this.h2l4.TabIndex = 44;
             this.h2l4.TabStop = false;
+            this.h2l4.Click += new System.EventHandler(this.h2l4_Click);
             // 
             // h2l3
             // 
-            this.h2l3.BackColor = System.Drawing.Color.White;
+            this.h2l3.BackColor = System.Drawing.Color.Transparent;
             this.h2l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l3.BackgroundImage")));
             this.h2l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h2l3.Location = new System.Drawing.Point(480, 281);
@@ -139,10 +146,11 @@
             this.h2l3.Size = new System.Drawing.Size(146, 99);
             this.h2l3.TabIndex = 43;
             this.h2l3.TabStop = false;
+            this.h2l3.Click += new System.EventHandler(this.h2l3_Click);
             // 
             // h2l2
             // 
-            this.h2l2.BackColor = System.Drawing.Color.White;
+            this.h2l2.BackColor = System.Drawing.Color.Transparent;
             this.h2l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l2.BackgroundImage")));
             this.h2l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h2l2.Location = new System.Drawing.Point(177, 281);
@@ -150,10 +158,11 @@
             this.h2l2.Size = new System.Drawing.Size(146, 99);
             this.h2l2.TabIndex = 41;
             this.h2l2.TabStop = false;
+            this.h2l2.Click += new System.EventHandler(this.h2l2_Click);
             // 
             // h2l1
             // 
-            this.h2l1.BackColor = System.Drawing.Color.White;
+            this.h2l1.BackColor = System.Drawing.Color.Transparent;
             this.h2l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h2l1.BackgroundImage")));
             this.h2l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h2l1.Location = new System.Drawing.Point(26, 281);
@@ -161,10 +170,11 @@
             this.h2l1.Size = new System.Drawing.Size(146, 99);
             this.h2l1.TabIndex = 40;
             this.h2l1.TabStop = false;
+            this.h2l1.Click += new System.EventHandler(this.h2l1_Click);
             // 
             // h1l5
             // 
-            this.h1l5.BackColor = System.Drawing.Color.White;
+            this.h1l5.BackColor = System.Drawing.Color.Transparent;
             this.h1l5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l5.BackgroundImage")));
             this.h1l5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h1l5.Location = new System.Drawing.Point(632, 154);
@@ -172,10 +182,11 @@
             this.h1l5.Size = new System.Drawing.Size(146, 99);
             this.h1l5.TabIndex = 39;
             this.h1l5.TabStop = false;
+            this.h1l5.Click += new System.EventHandler(this.h1l5_Click);
             // 
             // h1l4
             // 
-            this.h1l4.BackColor = System.Drawing.Color.White;
+            this.h1l4.BackColor = System.Drawing.Color.Transparent;
             this.h1l4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l4.BackgroundImage")));
             this.h1l4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h1l4.Location = new System.Drawing.Point(480, 154);
@@ -183,10 +194,11 @@
             this.h1l4.Size = new System.Drawing.Size(146, 99);
             this.h1l4.TabIndex = 38;
             this.h1l4.TabStop = false;
+            this.h1l4.Click += new System.EventHandler(this.h1l4_Click);
             // 
             // h1l3
             // 
-            this.h1l3.BackColor = System.Drawing.Color.White;
+            this.h1l3.BackColor = System.Drawing.Color.Transparent;
             this.h1l3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l3.BackgroundImage")));
             this.h1l3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h1l3.Location = new System.Drawing.Point(328, 154);
@@ -194,10 +206,11 @@
             this.h1l3.Size = new System.Drawing.Size(146, 99);
             this.h1l3.TabIndex = 37;
             this.h1l3.TabStop = false;
+            this.h1l3.Click += new System.EventHandler(this.h1l3_Click);
             // 
             // h1l2
             // 
-            this.h1l2.BackColor = System.Drawing.Color.White;
+            this.h1l2.BackColor = System.Drawing.Color.Transparent;
             this.h1l2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l2.BackgroundImage")));
             this.h1l2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h1l2.Location = new System.Drawing.Point(177, 154);
@@ -205,10 +218,11 @@
             this.h1l2.Size = new System.Drawing.Size(146, 99);
             this.h1l2.TabIndex = 36;
             this.h1l2.TabStop = false;
+            this.h1l2.Click += new System.EventHandler(this.h1l2_Click);
             // 
             // h1l1
             // 
-            this.h1l1.BackColor = System.Drawing.Color.White;
+            this.h1l1.BackColor = System.Drawing.Color.Transparent;
             this.h1l1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("h1l1.BackgroundImage")));
             this.h1l1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.h1l1.Location = new System.Drawing.Point(26, 154);
@@ -216,6 +230,7 @@
             this.h1l1.Size = new System.Drawing.Size(146, 99);
             this.h1l1.TabIndex = 35;
             this.h1l1.TabStop = false;
+            this.h1l1.Click += new System.EventHandler(this.h1l1_Click);
             // 
             // timeLabel
             // 
@@ -242,6 +257,7 @@
             // cleft
             // 
             this.cleft.AutoSize = true;
+            this.cleft.BackColor = System.Drawing.Color.Transparent;
             this.cleft.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cleft.ForeColor = System.Drawing.Color.Yellow;
             this.cleft.Location = new System.Drawing.Point(354, 317);
@@ -249,6 +265,11 @@
             this.cleft.Size = new System.Drawing.Size(93, 21);
             this.cleft.TabIndex = 62;
             this.cleft.Text = "0 cards left";
+            // 
+            // timerM
+            // 
+            this.timerM.Enabled = true;
+            this.timerM.Tick += new System.EventHandler(this.timerM_Tick);
             // 
             // mediumScreen
             // 
@@ -312,5 +333,6 @@
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Label levelLabel;
         private System.Windows.Forms.Label cleft;
+        private System.Windows.Forms.Timer timerM;
     }
 }
