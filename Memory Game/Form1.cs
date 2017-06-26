@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 //create by Wah He
+//finished date: 2017.06.26
 namespace Memory_Game
 {
     public partial class f1 : Form
