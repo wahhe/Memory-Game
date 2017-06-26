@@ -22,7 +22,7 @@ namespace Memory_Game
         {
             InitializeComponent();
             OnStartHard();
-            OnEnd();
+            
             sound();
         }
         public void sound()
@@ -1139,11 +1139,13 @@ namespace Memory_Game
             f1.playtime.Stop();
             f1.backPlayer.Stop();
             f1.bPlayer.Stop();
+
             Form f = this.FindForm();
             f.Controls.Remove(this);
 
             GameoverScreen los = new GameoverScreen();
             f.Controls.Add(los);
+
         }
         //private void losG()       
     
